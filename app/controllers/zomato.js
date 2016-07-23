@@ -64,6 +64,3 @@ router.get('/collection/cuisines/:city_id', function (req, res) {
 
 })
 
-router.get('/pulse-watchlist/restart', function (req, res) {
-    res.send('Process Restarted..')
-})
