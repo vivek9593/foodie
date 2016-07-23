@@ -15,9 +15,15 @@ models.forEach(function (model) {
 });
 
 
+app.listen(config.port, config.server_ip_address, function () {
+    console.log( "Listening on " + config.server_ip_address + ", server_port " + config.port )
+});
+
+/*
 app.listen(config.port, function () {
     console.log('Express server listening on port ' + config.port);
 });
+*/
 
 
 
