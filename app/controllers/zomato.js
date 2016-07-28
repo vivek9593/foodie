@@ -35,6 +35,14 @@ router.get('/categories', function (req, res) {
     sendResponse('https://developers.zomato.com/api/v2.1/categories', res);
 
 })
+
+router.get('/', function (req, res) {
+    console.log('Hell World');
+    res.send('Hello world!.')
+
+})
+
+
 router.get('/callback', function (req, res) {
 
     res.send("")
